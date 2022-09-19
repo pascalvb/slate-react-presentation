@@ -9,7 +9,7 @@
   "license": "MIT",
   "scripts": {
     "build": "babel src --out-dir lib --source-maps",
-    "prepublish": "yarn build"
+    "prepublish": "npm run build"
   },
   "peerDependencies": {
     "react": "*"
